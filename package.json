@@ -1,0 +1,16 @@
+{
+  "name": "road55-booking",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/core.test.mjs",
+    "dev": "netlify dev"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^11.1.10"
+  },
+  "devDependencies": {
+    "netlify-cli": "^27.20.1"
+  }
+}
